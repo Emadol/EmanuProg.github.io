@@ -1,3 +1,3 @@
-#                                                                       EmanuProg 
-##                                                                for a "open source" 
-###                                                                   APPLICATION
+                                                                      EmanuProg 
+                                                                 for a "open source" 
+                                                                     APPLICATION
