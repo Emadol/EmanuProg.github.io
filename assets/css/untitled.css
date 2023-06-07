@@ -1,0 +1,57 @@
+.bg-primary {
+  background-color: #755879 !important;
+}
+
+.btn-primary {
+  background-color: #755879;
+  border-color: #755879;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #ff00f5;
+}
+
+a:focus, a:hover, a:active {
+  color: #c190e8;
+}
+
+a:hover {
+  color: #dbb6ec;
+}
+
+a {
+  color: #dda9ef;
+  text-decoration: underline;
+}
+
+a {
+  color: #e5c1f6;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #e4a6e9;
+}
+
+.bg-secondary {
+  background-color: #11365c !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 102;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  margin-bottom: 15px;
+  transition: all ease .5s;
+  opacity: 0;
+  background-color: rgba(24,188,156,.9);
+}
+
+a:focus, a:hover, a:active {
+  color: #c668c2;
+}
+
