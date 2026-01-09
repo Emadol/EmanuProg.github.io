@@ -65,6 +65,7 @@ a:focus, a:hover, a:active {
     width: 100px; /* Larghezza fissa per allineamento */
     margin-right: 10px;
     font-weight: bold;
+    text-align: center;
 }
 .formbutton{
     padding: 10px 20px;
