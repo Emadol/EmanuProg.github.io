@@ -54,25 +54,45 @@ a {
 a:focus, a:hover, a:active {
   color: #c668c2;
 }
-.formstyle{
-    margin-bottom: 15px; 
-    display: flex;
-    align-items: center;
-    flex-grow: 1; 
-    padding: 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    width: 100px;
-    margin-right: 10px;
-    font-weight: bold;
-}
-.formbutton{
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 10px;
-}
+.formstyle {
+            margin-bottom: 15px; 
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #fff;
+        }
+
+        /* Stile specifico per gli input dentro i div */
+        .formstyle input, 
+        .formstyle textarea {
+            border: none;       /* Rimuove il bordo interno */
+            outline: none;      /* Rimuove il contorno blu al click */
+            width: 100%;        /* Occupa tutto lo spazio disponibile */
+            font-size: 14px;
+        }
+
+        .formstyle textarea {
+            resize: vertical;   /* Permette di ridimensionare solo in altezza */
+            min-height: 80px;
+            font-family: Arial, sans-serif;
+        }
+
+        /* 4. Bottone */
+        .formbutton {
+            padding: 12px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .formbutton:hover {
+            background-color: #0056b3; /* Colore più scuro al passaggio del mouse */
+        }
 
