@@ -97,7 +97,7 @@ a:focus, a:hover, a:active {
             background-color: #0056b3; /* Colore più scuro al passaggio del mouse */
         }
 bodyform {
-            display: flex;
+            /*display: flex;*/
             justify-content: center; /* Centra orizzontalmente */
             align-items: center;     /* Centra verticalmente */
             height: 100vh;           /* Altezza intera della finestra */
