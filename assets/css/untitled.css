@@ -104,7 +104,7 @@ bodyform {
             background-color: #f4f4f4; /* Colore di sfondo opzionale */
             font-family: Arial, sans-serif;
         }
-.list-inline{
+/*.list-inline{
               display: flex;
               align-items: center;
             }
@@ -114,4 +114,5 @@ bodyform {
                   align-items: center;
                   margin: 10px;
                 }
+*/
 
