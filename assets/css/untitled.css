@@ -106,11 +106,12 @@ bodyform {
         }
 .list-inline{
               display: flex;
+              align-items: center;
             }
 .list-inline-item{
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  margin: 25px;
+                  margin: 15px;
                 }
 
